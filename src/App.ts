@@ -24,6 +24,7 @@ export class App extends gfx.GfxApp
     constructor()
     {
         // initialize the base class gfx.GfxApp
+        
         super();
 
         this.cameraControls = new gfx.FirstPersonControls(this.camera); 
